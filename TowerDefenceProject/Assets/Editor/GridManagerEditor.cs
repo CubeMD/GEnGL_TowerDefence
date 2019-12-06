@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(GridManager))]
-public class GridManagerEditor : Editor
+namespace Editor
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(GridManager))]
+    public class GridManagerEditor : UnityEditor.Editor
     {
-        GridManager gridManagerScript = (GridManager)target;
-        
-        if(GUILayout.Button("PlaceTiles"))
+        public override void OnInspectorGUI()
         {
-            gridManagerScript.PlaceTiles();
-        }
-        if(GUILayout.Button("ClearTiles"))
-        {
-            gridManagerScript.ClearTiles();
-        }
+            GridManager gridManagerScript = (GridManager)target;
         
-        DrawDefaultInspector();
+            if(GUILayout.Button("PlaceTiles"))
+            {
+                gridManagerScript.PlaceTiles();
+            }
+            if(GUILayout.Button("ClearTiles"))
+            {
+                gridManagerScript.ClearTiles();
+            }
+        
+            DrawDefaultInspector();
+        }
     }
 }
+
