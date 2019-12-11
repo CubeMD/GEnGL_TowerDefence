@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Turret : MonoBehaviour
@@ -8,24 +9,11 @@ public class Turret : MonoBehaviour
     public Transform target;
     public float range;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        InvokeRepeating("UpdateTarget", 0f, 0.5f);
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        //if (target != null)
-        //{
-            
-        //}
-    }
-    public void UpdateTarget()
-    {
-        Collider[] enemies = Physics.OverlapSphere(transform.position, range);
-        if(enemies.Length > 1)
+        Collider[] enemies = Physics.OverlapSphere(transform.position, range).Where(x => x.GetComponent<Enemy>() != null).ToArray();
+        
+        if (enemies.Length > 0)
         {
             target = enemies[0].transform;
         }
@@ -33,7 +21,6 @@ public class Turret : MonoBehaviour
         {
             target = null;
         }
-        
     }
 
     public void OnDrawGizmos()

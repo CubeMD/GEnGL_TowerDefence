@@ -6,6 +6,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public Point target;
+    public Point origin;
     public float speed;
     public float hp;
     public float acceptanceRadius;
