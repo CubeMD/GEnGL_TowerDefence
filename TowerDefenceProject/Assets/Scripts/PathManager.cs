@@ -4,5 +4,7 @@ using UnityEngine;
 
 public class PathManager : MonoBehaviour
 {
-    public List<GameObject> points;
+    public bool drawLine;
+    public List<Vector3> points;
+    public List<Vector3> tangents;
 }
