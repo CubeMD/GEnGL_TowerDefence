@@ -7,4 +7,11 @@ public class PathManager : MonoBehaviour
     public bool drawLine;
     public List<Vector3> points;
     public List<Vector3> tangents;
+    
+    public Path path;
+
+    public void CreatePath()
+    {
+        path = new Path(transform.position);
+    }
 }
