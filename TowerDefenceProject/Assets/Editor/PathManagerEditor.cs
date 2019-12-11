@@ -8,16 +8,11 @@ namespace Editor
     [CustomEditor(typeof(PathManager))]
     public class PathManagerEditor : UnityEditor.Editor
     {
-        private PathManager pathManagerScript;
+        /*private PathManager pathManagerScript;
         
         private void OnEnable()
         {
             pathManagerScript = (PathManager) target;
-            
-            if (pathManagerScript.path == null)
-            {
-                pathManagerScript.CreatePath();
-            }
         }
         
         private void OnSceneGUI()
@@ -85,6 +80,6 @@ namespace Editor
                 Undo.RecordObject(pathManagerScript, "Add segment");
                 pathManagerScript.path.AddSegment(mousePos);
             }
-        }
+        }*/
     }
 }

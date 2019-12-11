@@ -37,9 +37,13 @@ public class GridManager : MonoBehaviour
             for (int x = 0; x < mapTexture.width; x++)
             {
                 GameObject tilePrefab = PrefabFromPixel(new Vector2Int(x, y));
-                Vector3 tilePos = new Vector3(x * tileSize, 0, y * tileSize) - offset;
-                tiles[x, y] = Instantiate(tilePrefab, tilePos, Quaternion.identity, transform);
-                tiles[x, y].GetComponent<Tile>().pos = new Vector2Int(x, y);
+
+                if (tilePrefab)
+                {
+                    Vector3 tilePos = new Vector3(x * tileSize, 0, y * tileSize) - offset;
+                    tiles[x, y] = Instantiate(tilePrefab, tilePos, Quaternion.identity, transform);
+                    tiles[x, y].GetComponent<Tile>().pos = new Vector2Int(x, y);
+                }
             }                
         }
     }
@@ -47,6 +51,12 @@ public class GridManager : MonoBehaviour
     private GameObject PrefabFromPixel(Vector2Int pos)
     {
         int index = mapColors.FindIndex(x => x.Equals(mapTexture.GetPixel(pos.x, pos.y)));
+        
+        if (index == -1)
+        {
+            return null;
+        }
+        
         return prefabTiles[index];
     }
     

@@ -4,14 +4,6 @@ using UnityEngine;
 
 public class PathManager : MonoBehaviour
 {
-    public bool drawLine;
-    public List<Vector3> points;
-    public List<Vector3> tangents;
+    public List<Connection> connections;
     
-    public Path path;
-
-    public void CreatePath()
-    {
-        path = new Path(transform.position);
-    }
 }
