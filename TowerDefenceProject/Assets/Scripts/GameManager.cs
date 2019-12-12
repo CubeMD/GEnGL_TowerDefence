@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public float damagePerEnemy;
     public int cashPerEnemy;
+    public GameObject GameOverMenu;
     
     private Player player;
     
@@ -49,6 +50,6 @@ public class GameManager : MonoBehaviour
 
     public void PlayerDead()
     {
-        
+        GameOverMenu.SetActive(true);
     }
 }

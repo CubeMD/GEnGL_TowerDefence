@@ -56235,6 +56235,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167028930}
   m_Mesh: {fileID: 4300000, guid: 9fb40de85ff0d0e48b9f250ec53c11de, type: 3}
+--- !u!1 &1171149708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5181676365860378996, guid: 6b964d8b864d5c34292d6ffb4db1a604,
+    type: 3}
+  m_PrefabInstance: {fileID: 6712765068431979836}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1171181502
 GameObject:
   m_ObjectHideFlags: 0
@@ -102482,6 +102488,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2226997700768896289, guid: 2d6e4680768462947a7a33efcbbaf1aa,
+        type: 3}
+      propertyPath: GameOverMenu
+      value: 
+      objectReference: {fileID: 1171149708}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d6e4680768462947a7a33efcbbaf1aa, type: 3}
 --- !u!1001 &6712765068431979836
@@ -102649,6 +102660,11 @@ PrefabInstance:
     - target: {fileID: 1408010764, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181676365860378996, guid: 6b964d8b864d5c34292d6ffb4db1a604,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
