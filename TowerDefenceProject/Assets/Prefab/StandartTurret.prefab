@@ -154,11 +154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6863c740b92857648afddf658b3af7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretSO: {fileID: 11400000, guid: 273fe2f03e7e3af40ba9aca691bb55c0, type: 2}
+  turretConfig: {fileID: 11400000, guid: 273fe2f03e7e3af40ba9aca691bb55c0, type: 2}
   turretPivot: {fileID: 7443997333250672195}
   firePoint: {fileID: 2043152135}
-  projectilePrefab: {fileID: 1314920939730529396, guid: 2882bbf1b7d8bc942b6640e2d12932e1,
-    type: 3}
 --- !u!1 &7447665719714527977
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,7 +169,7 @@ GameObject:
   - component: {fileID: 7433536209008975561}
   - component: {fileID: 7426336273530827685}
   m_Layer: 0
-  m_Name: Turret Tower 01
+  m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

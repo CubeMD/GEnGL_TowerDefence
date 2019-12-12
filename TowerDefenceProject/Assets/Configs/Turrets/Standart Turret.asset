@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea2a273a85a45f84e966b631ce436edf, type: 3}
   m_Name: Standart Turret
   m_EditorClassIdentifier: 
-  fireRate: 0
+  fireRate: 1
   cost: 5
   damage: 3
-  range: 10
-  projectile: {fileID: 6588266970450911570, guid: e6e7e4852434dda40a28d73bb5c6bb74,
+  range: 15
+  projectile: {fileID: 1314920939730529396, guid: 2882bbf1b7d8bc942b6640e2d12932e1,
     type: 3}
