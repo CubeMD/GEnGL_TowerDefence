@@ -31,6 +31,6 @@ public class Projectile : MonoBehaviour
     public void Hit()
     {
         Destroy(gameObject);
-        enemy.hp -= turret.damage;
+        //enemy.hp -= turret.damage;
     }
 }
