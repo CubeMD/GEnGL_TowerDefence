@@ -200,8 +200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6863c740b92857648afddf658b3af7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turretSO: {fileID: 0}
   turretPivot: {fileID: 0}
   target: {fileID: 0}
+  isTargeting: 0
   range: 5
 --- !u!114 &973926021618711445
 MonoBehaviour:
@@ -215,8 +217,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6863c740b92857648afddf658b3af7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turretSO: {fileID: 11400000, guid: 273fe2f03e7e3af40ba9aca691bb55c0, type: 2}
   turretPivot: {fileID: 8203508443365127328}
   target: {fileID: 0}
+  isTargeting: 0
   range: 10
 --- !u!1 &6013657060802144223
 GameObject:

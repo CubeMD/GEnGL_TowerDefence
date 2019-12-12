@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Turret SO", menuName = "Turret")]
-public class TurretSO : MonoBehaviour
+public class TurretSO : ScriptableObject
 {
+    public float fireRate;
     public int cost;
     public float damage;
     public float range;

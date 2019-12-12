@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
+    public ScriptableObject turretSO;
+
     public Transform turretPivot;
     public Transform target;
-    //public List<Collider> enemies;
 
     public bool isTargeting = false;
     public float range;
@@ -35,25 +36,6 @@ public class Turret : MonoBehaviour
                 target = null;
             }
         }
-        
-        
-
-        
-        
-        
-        //if (enemies.Count > 0)
-        //{
-            
-            
-        //}
-        //else
-        //{
-        //    target = null;
-        //    isTargeting = false;
-        //}
-
-        
-
     }
 
     public void OnDrawGizmos()
