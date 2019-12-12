@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
         cam = GetComponentInChildren<Camera>();
         cashUI.text = cashUI.text = ("$" + cash);
         healthbarUI.value = hp;
+        Time.timeScale = 1;
     }
 
     public void Update()
@@ -39,6 +40,7 @@ public class Player : MonoBehaviour
         if (hp <= 0)
         {
             GameManager.instance.PlayerDead();
+            Destroy(this);
         }
         else
         {
