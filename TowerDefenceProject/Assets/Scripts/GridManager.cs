@@ -44,6 +44,8 @@ public class GridManager : MonoBehaviour
                     Vector3 tilePos = new Vector3(x * tileSize, 0, y * tileSize) - offset;
                     tiles[x, y] = Instantiate(tilePrefab, tilePos, Quaternion.identity, transform);
                     tiles[x, y].GetComponent<Tile>().pos = new Vector2Int(x, y);
+                    tiles[x, y].GetComponent<Tile>().canHoldTurret = tilePrefab == prefabTiles[1];
+
                 }
             }                
         }

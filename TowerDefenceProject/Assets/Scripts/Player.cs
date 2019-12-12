@@ -17,6 +17,10 @@ public class Player : MonoBehaviour
     public float hp;
     public int cash;
     
+    public GameObject[] turrets;
+    public GameObject selectedTurret;
+    
+    
     public TextMeshProUGUI roundUI;
     public TextMeshProUGUI cashUI;
     public Slider healthbarUI;
@@ -37,9 +41,29 @@ public class Player : MonoBehaviour
         else
         {
             Move();
+            MouseInteract();
         }
     }
 
+    private void MouseInteract()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0) && selectedTurret != null)
+        {
+            if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out RaycastHit hitInfo, Mathf.Infinity))
+            {
+                Tile hitTile = hitInfo.collider.GetComponent<Tile>();
+                
+                if (hitTile.canHoldTurret && cash > selectedTurret.GetComponent<Turret>().turretConfig.cost)
+                {
+                    hitTile.canHoldTurret = false;
+                    cash -= selectedTurret.GetComponent<Turret>().turretConfig.cost;
+                    cashUI.text = ("$" + cash);
+                    Instantiate(selectedTurret, hitTile.transform);
+                }
+            }
+        }
+    }
+    
     private void Move()
     {
         cam.fieldOfView = Mathf.Clamp(cam.fieldOfView - Input.GetAxisRaw("Mouse ScrollWheel") * Time.deltaTime * scrollSpeed, minFOV, maxFOV);
@@ -49,5 +73,10 @@ public class Player : MonoBehaviour
         float x = Mathf.Clamp(transform.position.x + moveDir.x, -maxOffsetCam.x, maxOffsetCam.x);
         float z = Mathf.Clamp(transform.position.z + moveDir.z, -maxOffsetCam.y, maxOffsetCam.y);
         transform.position = new Vector3(x, 0,z);
+    }
+
+    public void SelectTower(int index)
+    {
+        selectedTurret = turrets[index];
     }
 }

@@ -8,17 +8,17 @@ public class SceneManagerScript : MonoBehaviour
     public void Level1()
     {
         SceneManager.LoadScene("Level01");
-        GameManager.instance.GetPlayerWave();
+        GameManager.instance.GetPlayer();
     }
     public void Level2()
     {
         SceneManager.LoadScene("Level02");
-        GameManager.instance.GetPlayerWave();
+        GameManager.instance.GetPlayer();
     }
     public void Level3()
     {
         SceneManager.LoadScene("Level03");
-        GameManager.instance.GetPlayerWave();
+        GameManager.instance.GetPlayer();
     }
     public void MainMenu()
     {
