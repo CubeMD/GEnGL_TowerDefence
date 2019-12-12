@@ -587,6 +587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &13783844
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -695,6 +696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &15663081
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -882,6 +884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 10}
+  canHoldTurret: 0
 --- !u!95 &26491463
 Animator:
   serializedVersion: 3
@@ -994,6 +997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &27616052
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1522,6 +1526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &36561702
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2072,6 +2077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 11}
+  canHoldTurret: 0
 --- !u!1 &59739088
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,6 +2221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 10}
+  canHoldTurret: 0
 --- !u!95 &60758769
 Animator:
   serializedVersion: 3
@@ -2423,6 +2430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 0}
+  canHoldTurret: 0
 --- !u!95 &64434335
 Animator:
   serializedVersion: 3
@@ -2910,6 +2918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 1}
+  canHoldTurret: 0
 --- !u!95 &74145812
 Animator:
   serializedVersion: 3
@@ -3103,6 +3112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 6}
+  canHoldTurret: 0
 --- !u!95 &76040993
 Animator:
   serializedVersion: 3
@@ -3218,6 +3228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 9}
+  canHoldTurret: 0
 --- !u!95 &76047376
 Animator:
   serializedVersion: 3
@@ -3504,6 +3515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 8}
+  canHoldTurret: 0
 --- !u!95 &77101751
 Animator:
   serializedVersion: 3
@@ -3709,6 +3721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &78675923
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3817,6 +3830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &84672574
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3925,6 +3939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &85855051
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4189,6 +4204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &94235643
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4303,6 +4319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 11}
+  canHoldTurret: 0
 --- !u!1 &98610704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4537,6 +4554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &98870278
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4987,6 +5005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &105762978
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5425,6 +5444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 6}
+  canHoldTurret: 0
 --- !u!95 &120054484
 Animator:
   serializedVersion: 3
@@ -5621,6 +5641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 7}
+  canHoldTurret: 0
 --- !u!1 &126355285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5671,6 +5692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 8}
+  canHoldTurret: 0
 --- !u!95 &126355288
 Animator:
   serializedVersion: 3
@@ -5876,6 +5898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &127418089
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6320,6 +6343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 12}
+  canHoldTurret: 0
 --- !u!95 &135715424
 Animator:
   serializedVersion: 3
@@ -6933,6 +6957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 7}
+  canHoldTurret: 0
 --- !u!95 &147637080
 Animator:
   serializedVersion: 3
@@ -7451,6 +7476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 12}
+  canHoldTurret: 0
 --- !u!95 &163673045
 Animator:
   serializedVersion: 3
@@ -7566,6 +7592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 1}
+  canHoldTurret: 0
 --- !u!95 &164336478
 Animator:
   serializedVersion: 3
@@ -7942,6 +7969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &169642076
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8212,6 +8240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 13}
+  canHoldTurret: 0
 --- !u!1 &179460807
 GameObject:
   m_ObjectHideFlags: 0
@@ -8340,6 +8369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 2}
+  canHoldTurret: 0
 --- !u!95 &183936579
 Animator:
   serializedVersion: 3
@@ -8458,6 +8488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 5}
+  canHoldTurret: 0
 --- !u!1 &186931578
 GameObject:
   m_ObjectHideFlags: 0
@@ -8508,6 +8539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 1}
+  canHoldTurret: 0
 --- !u!95 &186931581
 Animator:
   serializedVersion: 3
@@ -8697,6 +8729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 3}
+  canHoldTurret: 0
 --- !u!23 &192467605
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8793,6 +8826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 1}
+  canHoldTurret: 0
 --- !u!95 &193669022
 Animator:
   serializedVersion: 3
@@ -8905,6 +8939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &193844862
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9106,6 +9141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &195016630
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9572,6 +9608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &206541629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9683,6 +9720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 7}
+  canHoldTurret: 0
 --- !u!95 &208020214
 Animator:
   serializedVersion: 3
@@ -9969,6 +10007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 15}
+  canHoldTurret: 0
 --- !u!95 &218925832
 Animator:
   serializedVersion: 3
@@ -10081,6 +10120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &219765293
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10348,6 +10388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 14}
+  canHoldTurret: 0
 --- !u!95 &229270233
 Animator:
   serializedVersion: 3
@@ -10559,6 +10600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 6}
+  canHoldTurret: 0
 --- !u!1 &230798872
 GameObject:
   m_ObjectHideFlags: 0
@@ -10684,6 +10726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &231069819
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11195,6 +11238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &242650767
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11384,6 +11428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 4}
+  canHoldTurret: 0
 --- !u!95 &246129777
 Animator:
   serializedVersion: 3
@@ -11496,6 +11541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &246751558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11607,6 +11653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 11}
+  canHoldTurret: 0
 --- !u!95 &247299494
 Animator:
   serializedVersion: 3
@@ -11890,6 +11937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &252491507
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12091,6 +12139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &257136896
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12370,6 +12419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &261342134
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12649,6 +12699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &270526000
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12853,6 +12904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 3}
+  canHoldTurret: 0
 --- !u!95 &275801636
 Animator:
   serializedVersion: 3
@@ -13136,6 +13188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &282368977
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13514,6 +13567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 10}
+  canHoldTurret: 0
 --- !u!1 &293769195
 GameObject:
   m_ObjectHideFlags: 0
@@ -13564,6 +13618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 10}
+  canHoldTurret: 0
 --- !u!95 &293769198
 Animator:
   serializedVersion: 3
@@ -13677,6 +13732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 11}
+  canHoldTurret: 0
 --- !u!95 &295724738
 Animator:
   serializedVersion: 3
@@ -13866,6 +13922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 15, y: 3}
+  canHoldTurret: 0
 --- !u!23 &297705781
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13959,6 +14016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &299191257
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14148,6 +14206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 5}
+  canHoldTurret: 0
 --- !u!95 &303462007
 Animator:
   serializedVersion: 3
@@ -14359,6 +14418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 4}
+  canHoldTurret: 0
 --- !u!1 &306401595
 GameObject:
   m_ObjectHideFlags: 0
@@ -14409,6 +14469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 0}
+  canHoldTurret: 0
 --- !u!95 &306401598
 Animator:
   serializedVersion: 3
@@ -14695,6 +14756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 5}
+  canHoldTurret: 0
 --- !u!95 &310041389
 Animator:
   serializedVersion: 3
@@ -14807,6 +14869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &312590154
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15235,6 +15298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 9}
+  canHoldTurret: 0
 --- !u!95 &317114346
 Animator:
   serializedVersion: 3
@@ -15611,6 +15675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &328230213
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16083,6 +16148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 3}
+  canHoldTurret: 0
 --- !u!1 &333512013
 GameObject:
   m_ObjectHideFlags: 0
@@ -16223,6 +16289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &336642902
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16610,6 +16677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &341770589
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16718,6 +16786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &343370134
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16826,6 +16895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &345147130
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16934,6 +17004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &345181569
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17213,6 +17284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &350778156
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17509,6 +17581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 4}
+  canHoldTurret: 0
 --- !u!95 &358452985
 Animator:
   serializedVersion: 3
@@ -17699,6 +17772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &361613388
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17810,6 +17884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 12}
+  canHoldTurret: 0
 --- !u!95 &364761988
 Animator:
   serializedVersion: 3
@@ -17922,6 +17997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &366150741
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18222,6 +18298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 11}
+  canHoldTurret: 0
 --- !u!1 &374746966
 GameObject:
   m_ObjectHideFlags: 0
@@ -18614,6 +18691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 12}
+  canHoldTurret: 0
 --- !u!95 &381308892
 Animator:
   serializedVersion: 3
@@ -18897,6 +18975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &394838864
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19272,6 +19351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 13}
+  canHoldTurret: 0
 --- !u!95 &401586165
 Animator:
   serializedVersion: 3
@@ -19390,6 +19470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 12}
+  canHoldTurret: 0
 --- !u!1 &403788548
 GameObject:
   m_ObjectHideFlags: 0
@@ -19437,6 +19518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &403788551
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20061,6 +20143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 14}
+  canHoldTurret: 0
 --- !u!95 &417579726
 Animator:
   serializedVersion: 3
@@ -20459,6 +20542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 5}
+  canHoldTurret: 0
 --- !u!1 &424528499
 GameObject:
   m_ObjectHideFlags: 0
@@ -20599,6 +20683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &425888185
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20786,6 +20871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 11}
+  canHoldTurret: 0
 --- !u!95 &428258939
 Animator:
   serializedVersion: 3
@@ -21057,6 +21143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 3}
+  canHoldTurret: 0
 --- !u!95 &432521007
 Animator:
   serializedVersion: 3
@@ -21253,6 +21340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 4}
+  canHoldTurret: 0
 --- !u!1 &436054081
 GameObject:
   m_ObjectHideFlags: 0
@@ -21300,6 +21388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &436054084
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21408,6 +21497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &436704020
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21687,6 +21777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &440897596
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21795,6 +21886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &442818145
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21903,6 +21995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &447463090
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22104,6 +22197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &449580531
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22713,6 +22807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 10}
+  canHoldTurret: 0
 --- !u!95 &464770568
 Animator:
   serializedVersion: 3
@@ -22906,6 +23001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 1}
+  canHoldTurret: 0
 --- !u!95 &465421412
 Animator:
   serializedVersion: 3
@@ -23297,6 +23393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &468951912
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23486,6 +23583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 13}
+  canHoldTurret: 0
 --- !u!95 &472922588
 Animator:
   serializedVersion: 3
@@ -23604,6 +23702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 8}
+  canHoldTurret: 0
 --- !u!1 &479764164
 GameObject:
   m_ObjectHideFlags: 0
@@ -23735,6 +23834,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 4}
+  canHoldTurret: 0
+--- !u!114 &481291469 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 645285463193586209, guid: 6b964d8b864d5c34292d6ffb4db1a604,
+    type: 3}
+  m_PrefabInstance: {fileID: 6712765068431979836}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &483083969
 GameObject:
   m_ObjectHideFlags: 0
@@ -24109,6 +24221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &487119961
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24217,6 +24330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &494104910
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24517,6 +24631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 2}
+  canHoldTurret: 0
 --- !u!1 &501033610
 GameObject:
   m_ObjectHideFlags: 0
@@ -24567,6 +24682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 7}
+  canHoldTurret: 0
 --- !u!95 &501033613
 Animator:
   serializedVersion: 3
@@ -24679,6 +24795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &506044629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24973,6 +25090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &514567777
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25516,6 +25634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &525579559
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25720,6 +25839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 11}
+  canHoldTurret: 0
 --- !u!95 &528461152
 Animator:
   serializedVersion: 3
@@ -26003,6 +26123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &534559373
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26393,6 +26514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 15}
+  canHoldTurret: 0
 --- !u!95 &536878811
 Animator:
   serializedVersion: 3
@@ -26787,6 +26909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 1}
+  canHoldTurret: 0
 --- !u!95 &538174355
 Animator:
   serializedVersion: 3
@@ -27166,6 +27289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 2}
+  canHoldTurret: 0
 --- !u!95 &545770917
 Animator:
   serializedVersion: 3
@@ -27284,6 +27408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 12}
+  canHoldTurret: 0
 --- !u!1 &549466201
 GameObject:
   m_ObjectHideFlags: 0
@@ -27455,6 +27580,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551651311}
   m_Mesh: {fileID: 4300002, guid: 1f578a5df5a83f041a125a1b52578d7d, type: 3}
+--- !u!114 &552372135 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 645285463053559816, guid: 6b964d8b864d5c34292d6ffb4db1a604,
+    type: 3}
+  m_PrefabInstance: {fileID: 6712765068431979836}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &553357850
 GameObject:
   m_ObjectHideFlags: 0
@@ -27939,6 +28076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 14}
+  canHoldTurret: 0
 --- !u!95 &560564001
 Animator:
   serializedVersion: 3
@@ -28051,6 +28189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &562557842
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28162,6 +28301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 3}
+  canHoldTurret: 0
 --- !u!95 &564954879
 Animator:
   serializedVersion: 3
@@ -28742,6 +28882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &581640230
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28899,6 +29040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 8}
+  canHoldTurret: 0
 --- !u!95 &583896416
 Animator:
   serializedVersion: 3
@@ -29485,6 +29627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 2}
+  canHoldTurret: 0
 --- !u!1 &605521580
 GameObject:
   m_ObjectHideFlags: 0
@@ -29610,6 +29753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &611842503
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29811,6 +29955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &613859244
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29919,6 +30064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &615110844
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30201,6 +30347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 6}
+  canHoldTurret: 0
 --- !u!95 &621106503
 Animator:
   serializedVersion: 3
@@ -30407,6 +30554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &627961350
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30515,6 +30663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &628174752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31296,6 +31445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 4}
+  canHoldTurret: 0
 --- !u!95 &651757196
 Animator:
   serializedVersion: 3
@@ -31626,6 +31776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 8}
+  canHoldTurret: 0
 --- !u!95 &658765712
 Animator:
   serializedVersion: 3
@@ -31744,6 +31895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 9}
+  canHoldTurret: 0
 --- !u!1 &659865937
 GameObject:
   m_ObjectHideFlags: 0
@@ -32259,6 +32411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 4}
+  canHoldTurret: 0
 --- !u!95 &679091015
 Animator:
   serializedVersion: 3
@@ -32371,6 +32524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &682376901
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32603,6 +32757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &688851336
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32717,6 +32872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 3}
+  canHoldTurret: 0
 --- !u!1 &693388556
 GameObject:
   m_ObjectHideFlags: 0
@@ -32764,6 +32920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &693388559
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32950,6 +33107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &697107382
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33058,6 +33216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &697859934
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33166,6 +33325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &700847441
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33274,6 +33434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &702239056
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33385,6 +33546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 1}
+  canHoldTurret: 0
 --- !u!95 &703757758
 Animator:
   serializedVersion: 3
@@ -33497,6 +33659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &705670461
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35175,6 +35338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &736952988
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35283,6 +35447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &740558355
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35643,6 +35808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 8}
+  canHoldTurret: 0
 --- !u!95 &757116861
 Animator:
   serializedVersion: 3
@@ -36160,6 +36326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &766698051
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36458,6 +36625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 10}
+  canHoldTurret: 0
 --- !u!95 &772852629
 Animator:
   serializedVersion: 3
@@ -37101,6 +37269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 4}
+  canHoldTurret: 0
 --- !u!95 &787059892
 Animator:
   serializedVersion: 3
@@ -37219,6 +37388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 7}
+  canHoldTurret: 0
 --- !u!1 &788919278
 GameObject:
   m_ObjectHideFlags: 0
@@ -37362,6 +37532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 9}
+  canHoldTurret: 0
 --- !u!95 &796508224
 Animator:
   serializedVersion: 3
@@ -37630,6 +37801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &803565160
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37741,6 +37913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 6}
+  canHoldTurret: 0
 --- !u!95 &803709578
 Animator:
   serializedVersion: 3
@@ -37853,6 +38026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &807751667
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37960,6 +38134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 1}
+  canHoldTurret: 0
 --- !u!23 &808715950
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38302,6 +38477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &817657976
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38766,6 +38942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 5}
+  canHoldTurret: 0
 --- !u!23 &824273629
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39079,6 +39256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 14}
+  canHoldTurret: 0
 --- !u!95 &836952898
 Animator:
   serializedVersion: 3
@@ -39268,6 +39446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 3}
+  canHoldTurret: 0
 --- !u!23 &839718972
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39753,6 +39932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 11}
+  canHoldTurret: 0
 --- !u!95 &849923878
 Animator:
   serializedVersion: 3
@@ -40288,6 +40468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 3}
+  canHoldTurret: 0
 --- !u!95 &857318055
 Animator:
   serializedVersion: 3
@@ -40931,6 +41112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 6}
+  canHoldTurret: 0
 --- !u!95 &868005614
 Animator:
   serializedVersion: 3
@@ -41044,6 +41226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 9}
+  canHoldTurret: 0
 --- !u!95 &868514612
 Animator:
   serializedVersion: 3
@@ -41426,6 +41609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 8}
+  canHoldTurret: 0
 --- !u!1 &879353435
 GameObject:
   m_ObjectHideFlags: 0
@@ -41474,6 +41658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 12}
+  canHoldTurret: 0
 --- !u!95 &879353438
 Animator:
   serializedVersion: 3
@@ -41679,6 +41864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &880980828
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42135,6 +42321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 13}
+  canHoldTurret: 0
 --- !u!1 &896783629
 GameObject:
   m_ObjectHideFlags: 0
@@ -42368,6 +42555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &903458025
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42554,6 +42742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &906088552
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43083,6 +43272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 11}
+  canHoldTurret: 0
 --- !u!95 &912213922
 Animator:
   serializedVersion: 3
@@ -43867,6 +44057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 5}
+  canHoldTurret: 0
 --- !u!95 &925123689
 Animator:
   serializedVersion: 3
@@ -43979,6 +44170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &928024610
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44258,6 +44450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &931071059
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44366,6 +44559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &935987639
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44738,6 +44932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &941732486
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44846,6 +45041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &942998939
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45146,6 +45342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 10}
+  canHoldTurret: 0
 --- !u!1 &948854142
 GameObject:
   m_ObjectHideFlags: 0
@@ -45196,6 +45393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 10}
+  canHoldTurret: 0
 --- !u!95 &948854145
 Animator:
   serializedVersion: 3
@@ -45311,6 +45509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 5}
+  canHoldTurret: 0
 --- !u!95 &949826146
 Animator:
   serializedVersion: 3
@@ -45615,6 +45814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 5}
+  canHoldTurret: 0
 --- !u!1 &953009650
 GameObject:
   m_ObjectHideFlags: 0
@@ -45755,6 +45955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &953239825
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45869,6 +46070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 3}
+  canHoldTurret: 0
 --- !u!1 &955671887
 GameObject:
   m_ObjectHideFlags: 0
@@ -45916,6 +46118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &955671890
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46120,6 +46323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 0}
+  canHoldTurret: 0
 --- !u!95 &960118197
 Animator:
   serializedVersion: 3
@@ -46232,6 +46436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &960726111
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46700,6 +46905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 13}
+  canHoldTurret: 0
 --- !u!95 &969639720
 Animator:
   serializedVersion: 3
@@ -46891,6 +47097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 7}
+  canHoldTurret: 0
 --- !u!95 &977144174
 Animator:
   serializedVersion: 3
@@ -47081,6 +47288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &980879695
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47189,6 +47397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &981424330
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47298,6 +47507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 11}
+  canHoldTurret: 0
 --- !u!95 &982446329
 Animator:
   serializedVersion: 3
@@ -47416,6 +47626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 6}
+  canHoldTurret: 0
 --- !u!1 &984226555
 GameObject:
   m_ObjectHideFlags: 0
@@ -48045,6 +48256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 12}
+  canHoldTurret: 0
 --- !u!95 &988593497
 Animator:
   serializedVersion: 3
@@ -48403,6 +48615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 13}
+  canHoldTurret: 0
 --- !u!1 &1002879507
 GameObject:
   m_ObjectHideFlags: 0
@@ -48717,6 +48930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 13}
+  canHoldTurret: 0
 --- !u!95 &1007876381
 Animator:
   serializedVersion: 3
@@ -49081,6 +49295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 11}
+  canHoldTurret: 0
 --- !u!95 &1019961484
 Animator:
   serializedVersion: 3
@@ -49196,6 +49411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 0}
+  canHoldTurret: 0
 --- !u!95 &1020907067
 Animator:
   serializedVersion: 3
@@ -49386,6 +49602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1022090848
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49593,6 +49810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 6}
+  canHoldTurret: 0
 --- !u!1 &1023640659
 GameObject:
   m_ObjectHideFlags: 0
@@ -49827,6 +50045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1032168802
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50031,6 +50250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 3}
+  canHoldTurret: 0
 --- !u!95 &1033624216
 Animator:
   serializedVersion: 3
@@ -50143,6 +50363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1034763200
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50328,6 +50549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 13}
+  canHoldTurret: 0
 --- !u!23 &1037841483
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50515,6 +50737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 13}
+  canHoldTurret: 0
 --- !u!95 &1046993368
 Animator:
   serializedVersion: 3
@@ -51061,6 +51284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 5}
+  canHoldTurret: 0
 --- !u!23 &1055466326
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51231,6 +51455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 15, y: 5}
+  canHoldTurret: 0
 --- !u!23 &1062282967
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51324,6 +51549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1065543699
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51624,6 +51850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 10}
+  canHoldTurret: 0
 --- !u!1 &1069860412
 GameObject:
   m_ObjectHideFlags: 0
@@ -51906,6 +52133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 15, y: 8}
+  canHoldTurret: 0
 --- !u!95 &1076143975
 Animator:
   serializedVersion: 3
@@ -52562,6 +52790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1083346755
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52841,6 +53070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1087090878
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53201,6 +53431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 8}
+  canHoldTurret: 0
 --- !u!95 &1095984804
 Animator:
   serializedVersion: 3
@@ -53397,6 +53628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 2}
+  canHoldTurret: 0
 --- !u!1 &1102809706
 GameObject:
   m_ObjectHideFlags: 0
@@ -53444,6 +53676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1102809709
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53924,6 +54157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1120020204
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54035,6 +54269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 3}
+  canHoldTurret: 0
 --- !u!95 &1121120340
 Animator:
   serializedVersion: 3
@@ -54153,6 +54388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 8}
+  canHoldTurret: 0
 --- !u!1 &1127326445
 GameObject:
   m_ObjectHideFlags: 0
@@ -54203,6 +54439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 9}
+  canHoldTurret: 0
 --- !u!95 &1127326448
 Animator:
   serializedVersion: 3
@@ -54411,6 +54648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 1}
+  canHoldTurret: 0
 --- !u!95 &1132151144
 Animator:
   serializedVersion: 3
@@ -54601,6 +54839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1139286534
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54805,6 +55044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 0}
+  canHoldTurret: 0
 --- !u!95 &1141114578
 Animator:
   serializedVersion: 3
@@ -55929,6 +56169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 15, y: 9}
+  canHoldTurret: 0
 --- !u!95 &1167028933
 Animator:
   serializedVersion: 3
@@ -56047,6 +56288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 10}
+  canHoldTurret: 0
 --- !u!1 &1171267494
 GameObject:
   m_ObjectHideFlags: 0
@@ -56376,6 +56618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 1}
+  canHoldTurret: 0
 --- !u!95 &1179656100
 Animator:
   serializedVersion: 3
@@ -56488,6 +56731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1179928033
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56674,6 +56918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1183571053
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57016,6 +57261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1198187736
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57203,6 +57449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 12}
+  canHoldTurret: 0
 --- !u!95 &1200851539
 Animator:
   serializedVersion: 3
@@ -57567,6 +57814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 8}
+  canHoldTurret: 0
 --- !u!95 &1206139848
 Animator:
   serializedVersion: 3
@@ -57771,6 +58019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 4}
+  canHoldTurret: 0
 --- !u!23 &1214000772
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57864,6 +58113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1214567333
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58314,6 +58564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1220912631
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58857,6 +59108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1227999953
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59420,6 +59672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 3}
+  canHoldTurret: 0
 --- !u!95 &1244717955
 Animator:
   serializedVersion: 3
@@ -59703,6 +59956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1248032288
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59812,6 +60066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 14}
+  canHoldTurret: 0
 --- !u!95 &1248453903
 Animator:
   serializedVersion: 3
@@ -60017,6 +60272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1250502314
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60128,6 +60384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 4}
+  canHoldTurret: 0
 --- !u!95 &1253026387
 Animator:
   serializedVersion: 3
@@ -60240,6 +60497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1253552835
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60444,6 +60702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 8}
+  canHoldTurret: 0
 --- !u!95 &1254006578
 Animator:
   serializedVersion: 3
@@ -60556,6 +60815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1254175069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60664,6 +60924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1259144639
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60943,6 +61204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1259793931
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61221,6 +61483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 2}
+  canHoldTurret: 0
 --- !u!23 &1263149478
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61491,6 +61754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 4}
+  canHoldTurret: 0
 --- !u!1 &1269087624
 GameObject:
   m_ObjectHideFlags: 0
@@ -61541,6 +61805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 4}
+  canHoldTurret: 0
 --- !u!95 &1269087627
 Animator:
   serializedVersion: 3
@@ -61890,6 +62155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 2}
+  canHoldTurret: 0
 --- !u!95 &1278408767
 Animator:
   serializedVersion: 3
@@ -62429,6 +62695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 12}
+  canHoldTurret: 0
 --- !u!1 &1287260001
 GameObject:
   m_ObjectHideFlags: 0
@@ -62479,6 +62746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 13}
+  canHoldTurret: 0
 --- !u!95 &1287260004
 Animator:
   serializedVersion: 3
@@ -62669,6 +62937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1288876177
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -62855,6 +63124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1293077325
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63047,6 +63317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 7}
+  canHoldTurret: 0
 --- !u!1 &1297067905
 GameObject:
   m_ObjectHideFlags: 0
@@ -63376,6 +63647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 7}
+  canHoldTurret: 0
 --- !u!95 &1307785244
 Animator:
   serializedVersion: 3
@@ -63566,6 +63838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1310228975
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -63836,6 +64109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 9}
+  canHoldTurret: 0
 --- !u!1 &1313499593
 GameObject:
   m_ObjectHideFlags: 0
@@ -64213,6 +64487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 5}
+  canHoldTurret: 0
 --- !u!95 &1321188003
 Animator:
   serializedVersion: 3
@@ -64502,6 +64777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 7}
+  canHoldTurret: 0
 --- !u!1 &1326374778
 GameObject:
   m_ObjectHideFlags: 0
@@ -64555,6 +64831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 6}
+  canHoldTurret: 0
 --- !u!1 &1326539607
 GameObject:
   m_ObjectHideFlags: 0
@@ -64698,6 +64975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 9}
+  canHoldTurret: 0
 --- !u!95 &1327702485
 Animator:
   serializedVersion: 3
@@ -65532,6 +65810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 4}
+  canHoldTurret: 0
 --- !u!23 &1352326224
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -66138,6 +66417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1358779255
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66327,6 +66607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 1}
+  canHoldTurret: 0
 --- !u!95 &1362798358
 Animator:
   serializedVersion: 3
@@ -66532,6 +66813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1369944747
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67231,6 +67513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1387945128
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67591,6 +67874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 12}
+  canHoldTurret: 0
 --- !u!95 &1395675682
 Animator:
   serializedVersion: 3
@@ -67781,6 +68065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1399718020
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -67890,6 +68175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 15, y: 7}
+  canHoldTurret: 0
 --- !u!95 &1399815439
 Animator:
   serializedVersion: 3
@@ -69547,6 +69833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1445560737
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69844,6 +70131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 6}
+  canHoldTurret: 0
 --- !u!95 &1452309605
 Animator:
   serializedVersion: 3
@@ -69959,6 +70247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 2}
+  canHoldTurret: 0
 --- !u!95 &1453235043
 Animator:
   serializedVersion: 3
@@ -70074,6 +70363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 2}
+  canHoldTurret: 0
 --- !u!95 &1453883541
 Animator:
   serializedVersion: 3
@@ -70186,6 +70476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1462801355
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -70464,6 +70755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 7}
+  canHoldTurret: 0
 --- !u!23 &1471075048
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -70560,6 +70852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 2}
+  canHoldTurret: 0
 --- !u!95 &1472258250
 Animator:
   serializedVersion: 3
@@ -70921,6 +71214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1482205841
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -71246,6 +71540,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485016814}
   m_Mesh: {fileID: 4300000, guid: b5e7a38c51cae4780878c05f63312b1a, type: 3}
+--- !u!114 &1485241043 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 645285464020562082, guid: 6b964d8b864d5c34292d6ffb4db1a604,
+    type: 3}
+  m_PrefabInstance: {fileID: 6712765068431979836}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1491482457
 GameObject:
   m_ObjectHideFlags: 0
@@ -71299,6 +71605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 9}
+  canHoldTurret: 0
 --- !u!1 &1491540250
 GameObject:
   m_ObjectHideFlags: 0
@@ -71625,6 +71932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1493843822
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72266,6 +72574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 10}
+  canHoldTurret: 0
 --- !u!1 &1509093630
 GameObject:
   m_ObjectHideFlags: 0
@@ -72316,6 +72625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 11}
+  canHoldTurret: 0
 --- !u!95 &1509093633
 Animator:
   serializedVersion: 3
@@ -72770,6 +73080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1515777163
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72878,6 +73189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1517505752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73064,6 +73376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1518363979
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73253,6 +73566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 0}
+  canHoldTurret: 0
 --- !u!95 &1531837193
 Animator:
   serializedVersion: 3
@@ -73464,6 +73778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 7}
+  canHoldTurret: 0
 --- !u!1 &1534972130
 GameObject:
   m_ObjectHideFlags: 0
@@ -73913,6 +74228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 7}
+  canHoldTurret: 0
 --- !u!23 &1545346581
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -74009,6 +74325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 9}
+  canHoldTurret: 0
 --- !u!95 &1547041891
 Animator:
   serializedVersion: 3
@@ -74124,6 +74441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 12}
+  canHoldTurret: 0
 --- !u!95 &1547060360
 Animator:
   serializedVersion: 3
@@ -74239,6 +74557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 9}
+  canHoldTurret: 0
 --- !u!95 &1550019253
 Animator:
   serializedVersion: 3
@@ -74450,6 +74769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 6}
+  canHoldTurret: 0
 --- !u!1 &1559039654
 GameObject:
   m_ObjectHideFlags: 0
@@ -74503,6 +74823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 4}
+  canHoldTurret: 0
 --- !u!1 &1559261463
 GameObject:
   m_ObjectHideFlags: 0
@@ -74556,6 +74877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 10}
+  canHoldTurret: 0
 --- !u!1 &1559634651
 GameObject:
   m_ObjectHideFlags: 0
@@ -74606,6 +74928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 2}
+  canHoldTurret: 0
 --- !u!95 &1559634654
 Animator:
   serializedVersion: 3
@@ -74811,6 +75134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1565468160
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -74996,6 +75320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 5}
+  canHoldTurret: 0
 --- !u!23 &1573885265
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -75185,6 +75510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 6}
+  canHoldTurret: 0
 --- !u!95 &1577476189
 Animator:
   serializedVersion: 3
@@ -76173,6 +76499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 7}
+  canHoldTurret: 0
 --- !u!1 &1602461086
 GameObject:
   m_ObjectHideFlags: 0
@@ -76391,6 +76718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1605047332
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -77372,6 +77700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 2}
+  canHoldTurret: 0
 --- !u!95 &1626090633
 Animator:
   serializedVersion: 3
@@ -77982,6 +78311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1638821294
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78324,6 +78654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1643040569
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78435,6 +78766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 14}
+  canHoldTurret: 0
 --- !u!95 &1650074146
 Animator:
   serializedVersion: 3
@@ -78547,6 +78879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1653220327
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -78811,6 +79144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1656086081
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -79502,6 +79836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 9}
+  canHoldTurret: 0
 --- !u!1 &1673649655
 GameObject:
   m_ObjectHideFlags: 0
@@ -79649,6 +79984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 2, y: 4}
+  canHoldTurret: 0
 --- !u!1 &1676549755
 GameObject:
   m_ObjectHideFlags: 0
@@ -80104,6 +80440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 10}
+  canHoldTurret: 0
 --- !u!95 &1687082162
 Animator:
   serializedVersion: 3
@@ -80620,6 +80957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 13, y: 13}
+  canHoldTurret: 0
 --- !u!95 &1705409190
 Animator:
   serializedVersion: 3
@@ -80735,6 +81073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 3}
+  canHoldTurret: 0
 --- !u!95 &1709858247
 Animator:
   serializedVersion: 3
@@ -80853,6 +81192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 5}
+  canHoldTurret: 0
 --- !u!1 &1710637518
 GameObject:
   m_ObjectHideFlags: 0
@@ -80903,6 +81243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 11}
+  canHoldTurret: 0
 --- !u!95 &1710637521
 Animator:
   serializedVersion: 3
@@ -81018,6 +81359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 7}
+  canHoldTurret: 0
 --- !u!95 &1713989569
 Animator:
   serializedVersion: 3
@@ -81708,6 +82050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1728019420
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -82002,6 +82345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1735505730
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -82269,6 +82613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 2}
+  canHoldTurret: 0
 --- !u!95 &1738362581
 Animator:
   serializedVersion: 3
@@ -82381,6 +82726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1740504684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -82648,6 +82994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 10}
+  canHoldTurret: 0
 --- !u!95 &1744900016
 Animator:
   serializedVersion: 3
@@ -82761,6 +83108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 1, y: 13}
+  canHoldTurret: 0
 --- !u!95 &1746702298
 Animator:
   serializedVersion: 3
@@ -82972,6 +83320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 7, y: 8}
+  canHoldTurret: 0
 --- !u!1 &1753722993
 GameObject:
   m_ObjectHideFlags: 0
@@ -83019,6 +83368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1753722996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83127,6 +83477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1755465235
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83857,6 +84208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1782355715
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83947,6 +84299,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f979ba4d8c65c743b9f872ee0705e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  scrollSpeed: 0
+  maxFOV: 0
+  minFOV: 0
+  maxOffsetCam: {x: 0, y: 0}
+  hp: 0
+  cash: 0
+  turrets:
+  - {fileID: 7447507847287485453, guid: 7f8a560a4a0f9204f9a73078eddabc8e, type: 3}
+  - {fileID: 6290354970118625548, guid: 07fd135c79ab6d548a6c5da4d60945de, type: 3}
+  - {fileID: 4885406440612117502, guid: b548dd8ceb272aa4b9372510e9041605, type: 3}
+  selectedTurret: {fileID: 0}
+  roundUI: {fileID: 1485241043}
+  cashUI: {fileID: 481291469}
+  healthbarUI: {fileID: 552372135}
 --- !u!4 &1783211134
 Transform:
   m_ObjectHideFlags: 0
@@ -84168,6 +84535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 6, y: 11}
+  canHoldTurret: 0
 --- !u!95 &1794674050
 Animator:
   serializedVersion: 3
@@ -84559,6 +84927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1799530068
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -84667,6 +85036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1803619279
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -84946,6 +85316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 14, y: 3}
+  canHoldTurret: 0
 --- !u!23 &1809963783
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -85132,6 +85503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1816810794
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85582,6 +85954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1828267271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85693,6 +86066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 7}
+  canHoldTurret: 0
 --- !u!95 &1828989410
 Animator:
   serializedVersion: 3
@@ -86123,6 +86497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1837725055
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -86330,6 +86705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 6}
+  canHoldTurret: 0
 --- !u!1 &1846336730
 GameObject:
   m_ObjectHideFlags: 0
@@ -86827,6 +87203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 15, y: 4}
+  canHoldTurret: 0
 --- !u!23 &1854958186
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -86920,6 +87297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1855571974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87215,6 +87593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1863108204
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -87500,6 +87879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 9}
+  canHoldTurret: 0
 --- !u!1 &1874143721
 GameObject:
   m_ObjectHideFlags: 0
@@ -88138,6 +88518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1882938629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -88339,6 +88720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1885364713
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -88951,6 +89333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 9, y: 9}
+  canHoldTurret: 0
 --- !u!1 &1893913850
 GameObject:
   m_ObjectHideFlags: 0
@@ -89607,6 +89990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 2}
+  canHoldTurret: 0
 --- !u!95 &1901709489
 Animator:
   serializedVersion: 3
@@ -89719,6 +90103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1905316475
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -89873,6 +90258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1914513612
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90073,6 +90459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 11}
+  canHoldTurret: 0
 --- !u!23 &1919370251
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -90166,6 +90553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1923574675
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90492,6 +90880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 15, y: 6}
+  canHoldTurret: 0
 --- !u!95 &1929670137
 Animator:
   serializedVersion: 3
@@ -90775,6 +91164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1940838297
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90961,6 +91351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1946578198
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -91072,6 +91463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 5, y: 12}
+  canHoldTurret: 0
 --- !u!95 &1946618443
 Animator:
   serializedVersion: 3
@@ -91184,6 +91576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1948756137
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -91478,6 +91871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1949286426
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -91589,6 +91983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 8}
+  canHoldTurret: 0
 --- !u!95 &1949976332
 Animator:
   serializedVersion: 3
@@ -92043,6 +92438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1962280136
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -92403,6 +92799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 5}
+  canHoldTurret: 0
 --- !u!95 &1971976802
 Animator:
   serializedVersion: 3
@@ -92611,6 +93008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 12, y: 6}
+  canHoldTurret: 0
 --- !u!95 &1975360471
 Animator:
   serializedVersion: 3
@@ -92816,6 +93214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1975539515
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -93551,6 +93950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 8}
+  canHoldTurret: 0
 --- !u!1 &1987332269
 GameObject:
   m_ObjectHideFlags: 0
@@ -93676,6 +94076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1988032439
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94033,6 +94434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &1996146001
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94408,6 +94810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 6}
+  canHoldTurret: 0
 --- !u!95 &2000578566
 Animator:
   serializedVersion: 3
@@ -94520,6 +94923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2002841254
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94893,6 +95297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2006332907
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -95001,6 +95406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2008470610
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -95109,6 +95515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2018398017
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -95667,6 +96074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2027020895
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -95853,6 +96261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2041178603
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96246,6 +96655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 8}
+  canHoldTurret: 0
 --- !u!1 &2057982096
 GameObject:
   m_ObjectHideFlags: 0
@@ -96293,6 +96703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2057982099
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96455,6 +96866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 9}
+  canHoldTurret: 0
 --- !u!95 &2065374663
 Animator:
   serializedVersion: 3
@@ -96570,6 +96982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 14}
+  canHoldTurret: 0
 --- !u!95 &2068848089
 Animator:
   serializedVersion: 3
@@ -96683,6 +97096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 11, y: 13}
+  canHoldTurret: 0
 --- !u!95 &2069706322
 Animator:
   serializedVersion: 3
@@ -96795,6 +97209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2074048272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96903,6 +97318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2077270971
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -97104,6 +97520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2079170422
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -97837,6 +98254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 2}
+  canHoldTurret: 0
 --- !u!95 &2089069493
 Animator:
   serializedVersion: 3
@@ -98042,6 +98460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2091303315
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -98336,6 +98755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2095864392
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -98444,6 +98864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2098279786
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -98651,6 +99072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 8, y: 5}
+  canHoldTurret: 0
 --- !u!1 &2102851489
 GameObject:
   m_ObjectHideFlags: 0
@@ -98776,6 +99198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2103277952
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -98884,6 +99307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2103467415
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -98992,6 +99416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2103828273
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -99100,6 +99525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2104166023
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -99292,6 +99718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 3, y: 5}
+  canHoldTurret: 0
 --- !u!1 &2106091821
 GameObject:
   m_ObjectHideFlags: 0
@@ -99420,6 +99847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 4, y: 1}
+  canHoldTurret: 0
 --- !u!95 &2109669604
 Animator:
   serializedVersion: 3
@@ -99535,6 +99963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 10, y: 10}
+  canHoldTurret: 0
 --- !u!95 &2111157638
 Animator:
   serializedVersion: 3
@@ -100097,6 +100526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2116813272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -100208,6 +100638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 3}
+  canHoldTurret: 0
 --- !u!95 &2117413514
 Animator:
   serializedVersion: 3
@@ -101004,6 +101435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 50, y: 52}
+  canHoldTurret: 0
 --- !u!64 &2134156626
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -102137,6 +102569,86 @@ PrefabInstance:
     - target: {fileID: 1546836956, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
       propertyPath: m_Name
       value: BUYMENU
+      objectReference: {fileID: 0}
+    - target: {fileID: 303980742, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 303980742, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 303980742, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 303980742, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1783211133}
+    - target: {fileID: 303980742, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 303980742, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 956852626, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 956852626, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 956852626, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 956852626, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1783211133}
+    - target: {fileID: 956852626, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 956852626, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 956852626, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408010764, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408010764, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408010764, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408010764, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1783211133}
+    - target: {fileID: 1408010764, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408010764, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408010764, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b964d8b864d5c34292d6ffb4db1a604, type: 3}
