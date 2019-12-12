@@ -7,9 +7,17 @@ public class Enemy : MonoBehaviour
 {
     public Point target;
     public Point origin;
-    public float speed;
-    public float hp;
     public float acceptanceRadius;
+    public EnemySO enemyConfig;
+    
+    private float speed;
+    private float hp;
+    
+    public void Start()
+    {
+        speed = enemyConfig.speed;
+        hp = enemyConfig.hp;
+    }
 
     private void Update()
     {

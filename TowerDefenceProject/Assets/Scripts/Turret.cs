@@ -17,13 +17,27 @@ public class Turret : MonoBehaviour
         if(target == null)
         {
             Collider[] enemies = Physics.OverlapSphere(transform.position, range).Where(x => x.GetComponent<Enemy>() != null).ToArray();
-            if(enemies.Length > 0)
-            target = enemies[0].transform;
+            
+            if (enemies.Length > 0)
+            {
+                target = enemies[0].transform;
+            }
         }
-        if(Vector3.Distance(transform.position, target.transform.position) > range)
+        else
         {
-            target = null;
+            Vector3 pointDirection = target.position - transform.position; 
+            Quaternion LookRotation = Quaternion.LookRotation(pointDirection); 
+            Vector3 turretRotation = LookRotation.eulerAngles;
+            turretPivot.rotation = Quaternion.Euler(0, turretRotation.y, 0);
+            
+            if(Vector3.Distance(transform.position, target.transform.position) > range)
+            {
+                target = null;
+            }
         }
+        
+        
+
         
         
         
@@ -38,10 +52,7 @@ public class Turret : MonoBehaviour
         //    isTargeting = false;
         //}
 
-        Vector3 pointDirection = target.position - transform.position;
-        Quaternion LookRotation = Quaternion.LookRotation(pointDirection);
-        Vector3 turretRotation = LookRotation.eulerAngles;
-        turretPivot.rotation = Quaternion.Euler(0, turretRotation.y, 0);
+        
 
     }
 
