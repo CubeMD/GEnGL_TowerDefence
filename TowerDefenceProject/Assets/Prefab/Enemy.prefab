@@ -1092,6 +1092,7 @@ GameObject:
   - component: {fileID: 8352602711942152050}
   - component: {fileID: 1941542890382158563}
   - component: {fileID: 8352602711942152046}
+  - component: {fileID: 6528617846039123351}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1106,8 +1107,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8352602711942152041}
-  m_LocalRotation: {x: -0, y: 0.9927414, z: -0, w: -0.12026889}
-  m_LocalPosition: {x: 8.87, y: 0, z: 18.74}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.2766, y: 1.2766, z: 1.2766}
   m_Children:
   - {fileID: 1993663332809315367}
@@ -1125,7 +1126,7 @@ Transform:
   - {fileID: 1993786295774772075}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 193.81499, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1941542890382158563
 Animator:
   serializedVersion: 3
@@ -1161,3 +1162,16 @@ MonoBehaviour:
   target: {fileID: 0}
   acceptanceRadius: 0.5
   hp: 1
+--- !u!65 &6528617846039123351
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8352602711942152041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.54, z: 0}

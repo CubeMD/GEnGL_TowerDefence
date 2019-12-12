@@ -30,6 +30,8 @@ public class Player : MonoBehaviour
     public void Start()
     {
         cam = GetComponentInChildren<Camera>();
+        cashUI.text = cashUI.text = ("$" + cash);
+        healthbarUI.value = hp;
     }
 
     public void Update()
@@ -47,14 +49,17 @@ public class Player : MonoBehaviour
 
     private void MouseInteract()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && selectedTurret != null)
+        if (Input.GetMouseButtonDown(0) && selectedTurret != null)
         {
-            if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out RaycastHit hitInfo, Mathf.Infinity))
+            if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out RaycastHit hitInfo, 5000f))
             {
                 Tile hitTile = hitInfo.collider.GetComponent<Tile>();
                 
-                if (hitTile.canHoldTurret && cash > selectedTurret.GetComponent<Turret>().turretConfig.cost)
+                Debug.Log(hitTile);
+                
+                if (hitTile != null && hitTile.canHoldTurret && cash > selectedTurret.GetComponent<Turret>().turretConfig.cost)
                 {
+                    Debug.Log("asdsa");
                     hitTile.canHoldTurret = false;
                     cash -= selectedTurret.GetComponent<Turret>().turretConfig.cost;
                     cashUI.text = ("$" + cash);

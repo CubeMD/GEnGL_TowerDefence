@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33050907618187434}
   - component: {fileID: 23563939612876008}
   - component: {fileID: 7920508443602810933}
+  - component: {fileID: 744443391250920689}
   m_Layer: 0
   m_Name: TowerTile
   m_TagString: Untagged
@@ -92,3 +93,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 0, y: 0}
+  canHoldTurret: 0
+--- !u!65 &744443391250920689
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593622924028346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.4763613, z: 4.999999}
+  m_Center: {x: 0, y: -0.19423394, z: -0.000000834465}
