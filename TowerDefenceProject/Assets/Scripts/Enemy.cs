@@ -7,26 +7,27 @@ public class Enemy : MonoBehaviour
 {
     public EnemySO enemyConfig;
     public Point target;
-    public float hp;
-
     public float acceptanceRadius;
-    
-    private float speed;
+    public float hp;
 
     public void Start()
     {
-        speed = enemyConfig.speed;
         hp = enemyConfig.hp;
     }
 
     private void Update()
     {
+        if (hp < 0)
+        {
+            Destroy(gameObject);
+        }
+        
         Move();
     }
 
     public void Move()
     {
-        transform.Translate(Time.deltaTime * speed * Vector3.forward);
+        transform.Translate(Time.deltaTime * enemyConfig.speed * Vector3.forward);
         transform.LookAt(target.transform);
         
         float distanceToTarget = Vector3.Distance(transform.position, target.transform.position);

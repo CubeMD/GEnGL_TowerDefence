@@ -2,11 +2,9 @@
 
 public class Projectile : MonoBehaviour
 {
+    public ProjectileSO projectileConfig;
     public Enemy target;
-
-    float projectileSpeed = 50;
-    float distanceToTravel;
-
+    
     void Update()
     {
         if(target == null)
@@ -15,7 +13,7 @@ public class Projectile : MonoBehaviour
         }
 
         Vector3 direction = target.transform.position - transform.position;
-        distanceToTravel = projectileSpeed * Time.deltaTime;
+        float distanceToTravel = projectileConfig.speed * Time.deltaTime;
         transform.Translate(direction.normalized * distanceToTravel, Space.World);
         
         if(direction.magnitude <= distanceToTravel)
@@ -25,7 +23,7 @@ public class Projectile : MonoBehaviour
     }
     public void Hit()
     {
+        target.hp -= projectileConfig.damage; 
         Destroy(gameObject);
-        //enemy.hp -= turret.damage;
     }
 }

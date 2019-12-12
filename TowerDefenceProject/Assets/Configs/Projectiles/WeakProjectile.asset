@@ -9,11 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea2a273a85a45f84e966b631ce436edf, type: 3}
-  m_Name: Tier 2
+  m_Script: {fileID: 11500000, guid: 0fe7f4b5711be45479fab7ed587d23b8, type: 3}
+  m_Name: WeakProjectile
   m_EditorClassIdentifier: 
-  fireRate: 2
-  cost: 15
-  range: 10
-  projectile: {fileID: 1314920939730529396, guid: 2882bbf1b7d8bc942b6640e2d12932e1,
-    type: 3}
+  damage: 5
+  speed: 50

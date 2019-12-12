@@ -105,5 +105,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3091b5a52cd82b445920fecd131725dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 11400000, guid: 25d112be523d5a842a47c037690d578d, type: 2}
-  turret: {fileID: 11400000, guid: 273fe2f03e7e3af40ba9aca691bb55c0, type: 2}
+  projectileConfig: {fileID: 11400000, guid: eda6a7a2a5a278c47ae59f0c757f356b, type: 2}
+  target: {fileID: 0}
