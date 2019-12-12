@@ -3,18 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using Random = UnityEngine.Random;
 
 public class WaveManager : MonoBehaviour
 {
     public List<WaveSO> waveData;
-    public int waveIndex;
-    public Point[] startingPoints;
-
-    public List<Dictionary<GameObject, int>> waves;
+    public float spawnInterval;
+    public float breakInterval;
+    private Point[] startingPoints;
+    private List<Dictionary<GameObject, int>> waves;
     
     private void Start()
     {
         startingPoints = FindObjectsOfType<Point>().Where(x => x.previousPoints.Count == 0).ToArray();
+        waves = new List<Dictionary<GameObject, int>>();
         
         for (int i = 0; i < waveData.Count; i++)
         {
@@ -26,25 +28,31 @@ public class WaveManager : MonoBehaviour
             }
             waves.Add(wave);
         }
-        /*PlayWave();*/
+
+        StartCoroutine(PlayWave());
     }
 
-/*    public void PlayWave()
+    private IEnumerator PlayWave()
     {
-        StartCoroutine(SpawnWaveEnemies());
-    }
-    
-    public IEnumerator SpawnWaveEnemies()
-    {
-        while (waves[waveIndex].Values.Sum() > 0)
+        foreach (var wave in waves)
         {
-            Point spawnPoint = startingPoints[UnityEngine.Random.Range(0, startingPoints.Length)];
-            Vector3 spawnPos = spawnPoint.transform.position; 
-            Enemy enemy = Instantiate(waves[waveIndex]., spawnPos, Quaternion.identity, transform).GetComponent<Enemy>(); 
-            enemy.origin = spawnPoint; 
-            enemy.target = spawnPoint.nextPoint;
-            enemies.RemoveAt(enemies.Count - 1);
-            yield return new WaitForSeconds(timeInterval);
+            while (wave.Values.Sum() > 0)
+            {
+                Point spawnPoint = startingPoints[UnityEngine.Random.Range(0, startingPoints.Length)];
+                Vector3 spawnPos = spawnPoint.transform.position;
+                GameObject spawnEnemy = RandomEnemyFromWave(wave);
+                Enemy enemy = Instantiate(spawnEnemy, spawnPos, Quaternion.identity, transform).GetComponent<Enemy>();
+                enemy.target = spawnPoint.nextPoint;
+                yield return new WaitForSeconds(spawnInterval);
+            }
+            yield return new WaitForSeconds(breakInterval);
         }
-    }*/
+    }
+
+    private static GameObject RandomEnemyFromWave(Dictionary<GameObject, int> wave)
+    {
+        int index = Random.Range(0, wave.Count);
+        wave[wave.ElementAt(index).Key]--;
+        return wave.ElementAt(index).Key;
+    }
 }

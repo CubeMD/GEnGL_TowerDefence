@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public Point target;
-    public Point origin;
-    public float acceptanceRadius;
     public EnemySO enemyConfig;
+    public Point target;
+    public float hp;
+
+    public float acceptanceRadius;
     
     private float speed;
-    private float hp;
-    
+
     public void Start()
     {
         speed = enemyConfig.speed;
@@ -21,8 +21,12 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        transform.position += (target.transform.position - transform.position).normalized * speed * Time.deltaTime;
-        //Debug.Log((target.transform.position - transform.position));
+        Move();
+    }
+
+    public void Move()
+    {
+        transform.Translate(Time.deltaTime * speed * Vector3.forward);
         transform.LookAt(target.transform);
         
         float distanceToTarget = Vector3.Distance(transform.position, target.transform.position);
