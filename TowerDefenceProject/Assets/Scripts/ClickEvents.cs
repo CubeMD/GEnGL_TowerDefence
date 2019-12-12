@@ -14,4 +14,9 @@ public class ClickEvents : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+    
+    public void TimeScaleZero()
+    {
+        Time.timeScale = 0;
+    }
 }

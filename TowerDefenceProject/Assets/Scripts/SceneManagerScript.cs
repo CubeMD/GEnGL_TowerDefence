@@ -13,6 +13,7 @@ public class SceneManagerScript : MonoBehaviour
     public void Level2()
     {
         SceneManager.LoadScene("Level02");
+        Debug.Log(GameManager.instance);
         GameManager.instance.GetPlayer();
     }
     public void Level3()

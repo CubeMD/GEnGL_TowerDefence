@@ -47,7 +47,6 @@ public class WaveManager : MonoBehaviour
             }
             yield return new WaitForSeconds(breakInterval);
         }
-        Debug.Log("endReached");
         GameManager.instance.PlayerWin();
     }
 
