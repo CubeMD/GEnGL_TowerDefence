@@ -7,7 +7,7 @@ public class ClickEvents : MonoBehaviour
     public void Clicked ()
     {
         AudioManager.instance.PlaySounds("MenuSound");
-        Time.timeScale = 0;
+        
     }
 
     public void TimeScaleNormal()
