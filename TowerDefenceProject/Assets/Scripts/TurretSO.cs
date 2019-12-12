@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TowerSO : MonoBehaviour
+[CreateAssetMenu(fileName = "New Turret SO", menuName = "Turret")]
+public class TurretSO : MonoBehaviour
 {
     public int cost;
     public float damage;
