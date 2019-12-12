@@ -7,20 +7,36 @@ public class Turret : MonoBehaviour
 {
     public Transform turretPivot;
     public Transform target;
+    //public List<Collider> enemies;
+
+    public bool isTargeting = false;
     public float range;
 
     void Update()
     {
-        Collider[] enemies = Physics.OverlapSphere(transform.position, range).Where(x => x.GetComponent<Enemy>() != null).ToArray();
-        
-        if (enemies.Length > 0)
+        if(target == null)
         {
+            Collider[] enemies = Physics.OverlapSphere(transform.position, range).Where(x => x.GetComponent<Enemy>() != null).ToArray();
+            if(enemies.Length > 0)
             target = enemies[0].transform;
         }
-        else
+        if(Vector3.Distance(transform.position, target.transform.position) > range)
         {
             target = null;
         }
+        
+        
+        
+        //if (enemies.Count > 0)
+        //{
+            
+            
+        //}
+        //else
+        //{
+        //    target = null;
+        //    isTargeting = false;
+        //}
 
         Vector3 pointDirection = target.position - transform.position;
         Quaternion LookRotation = Quaternion.LookRotation(pointDirection);

@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2290182939634066743}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.704, z: 0}
-  m_LocalScale: {x: 1.9286401, y: 0.606912, z: 1.4060401}
+  m_LocalScale: {x: 1.4254386, y: 0.606912, z: 1.4060401}
   m_Children: []
   m_Father: {fileID: 8203508443365127328}
   m_RootOrder: 0
@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 3025149914237328250}
   - component: {fileID: 1184020494898143422}
   - component: {fileID: 8444985731481347860}
+  - component: {fileID: 973926021618711445}
   m_Layer: 0
   m_Name: Turret_Placeholder
   m_TagString: Untagged
@@ -199,8 +200,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6863c740b92857648afddf658b3af7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turretPivot: {fileID: 0}
   target: {fileID: 0}
   range: 5
+--- !u!114 &973926021618711445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3658973747383540642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6863c740b92857648afddf658b3af7bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretPivot: {fileID: 8203508443365127328}
+  target: {fileID: 0}
+  range: 10
 --- !u!1 &6013657060802144223
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,8 +245,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6013657060802144223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.87, y: 0.744, z: 0}
-  m_LocalScale: {x: 2.6658, y: 0.26348, z: 0.56891006}
+  m_LocalPosition: {x: -0.01, y: 0.744, z: 1.65}
+  m_LocalScale: {x: 0.63502276, y: 0.26348, z: 2.0305212}
   m_Children: []
   m_Father: {fileID: 8203508443365127328}
   m_RootOrder: 1
