@@ -43,3 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e98fad0a1c671be49b6178930f79e683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
+  gold: 0
+  round: 1
+  roundtxt: {fileID: 0}
+  goldtxt: {fileID: 0}
+  healthbar: {fileID: 0}

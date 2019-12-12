@@ -29,6 +29,10 @@ public class AudioManager : MonoBehaviour
             case "TurretShot":
                 audiosrc.PlayOneShot(effects[1]);
                 break;
+            case "DamagerEffect":
+                audiosrc.PlayOneShot(effects[2]);
+                break;
+
 
         }
     }

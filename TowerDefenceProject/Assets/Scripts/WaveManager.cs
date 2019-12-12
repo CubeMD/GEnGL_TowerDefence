@@ -45,6 +45,7 @@ public class WaveManager : MonoBehaviour
                 enemy.target = spawnPoint.nextPoint;
                 yield return new WaitForSeconds(spawnInterval);
             }
+            GameManager.instance.RoundIncrease();
             yield return new WaitForSeconds(breakInterval);
         }
     }

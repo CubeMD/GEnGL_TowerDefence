@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
         if (hp <= 0)
         {
             Destroy(gameObject);
+            GameManager.instance.EnemyKill();
         }
         
         Move();
@@ -40,6 +41,8 @@ public class Enemy : MonoBehaviour
             }
             else
             {
+                AudioManager.instance.PlaySounds("TakeDamage");
+                GameManager.instance.TakeDamage();
                 Destroy(gameObject);
             }
         }
