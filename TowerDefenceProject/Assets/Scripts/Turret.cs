@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
-
+    public Transform turretPivot;
     public Transform target;
     public float range;
 
@@ -21,6 +21,12 @@ public class Turret : MonoBehaviour
         {
             target = null;
         }
+
+        Vector3 pointDirection = target.position - transform.position;
+        Quaternion LookRotation = Quaternion.LookRotation(pointDirection);
+        Vector3 turretRotation = LookRotation.eulerAngles;
+        turretPivot.rotation = Quaternion.Euler(0, turretRotation.y, 0);
+
     }
 
     public void OnDrawGizmos()
