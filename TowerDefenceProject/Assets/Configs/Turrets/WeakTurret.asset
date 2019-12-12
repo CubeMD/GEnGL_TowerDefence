@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2a273a85a45f84e966b631ce436edf, type: 3}
+  m_Name: WeakTurret
+  m_EditorClassIdentifier: 
+  fireRate: 1
+  cost: 15
+  damage: 5
+  range: 12
+  projectile: {fileID: 6588266970450911570, guid: e6e7e4852434dda40a28d73bb5c6bb74,
+    type: 3}

@@ -11,11 +11,11 @@ using Random = UnityEngine.Random;
 public class GridManager : MonoBehaviour
 {
     public Texture2D mapTexture;
-
+    public float tileSize;
     public List<GameObject> prefabTiles;
     public List<Color> mapColors;
         
-    public GameObject[,] tiles;
+    private GameObject[,] tiles;
     
     public static GridManager instance;
 
@@ -28,7 +28,8 @@ public class GridManager : MonoBehaviour
     {
         ClearTiles();
 
-        float tileSize = prefabTiles[0].GetComponent<Renderer>().bounds.size.x;
+        //float tileSize = prefabTiles[0].GetComponent<Renderer>().bounds.size.x; // auto tile size
+        
         Vector3 offset = new Vector3(mapTexture.width * tileSize / 2, 0, mapTexture.height * tileSize / 2);
         tiles = new GameObject[mapTexture.width, mapTexture.height];
         

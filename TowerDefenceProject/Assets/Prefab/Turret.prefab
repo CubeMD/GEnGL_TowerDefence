@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 2212412984098820636}
   - component: {fileID: 3025149914237328250}
   - component: {fileID: 1184020494898143422}
-  - component: {fileID: 8444985731481347860}
   - component: {fileID: 973926021618711445}
   m_Layer: 0
   m_Name: Turret_Placeholder
@@ -188,23 +187,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8444985731481347860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3658973747383540642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6863c740b92857648afddf658b3af7bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turretSO: {fileID: 0}
-  turretPivot: {fileID: 0}
-  target: {fileID: 0}
-  isTargeting: 0
-  range: 5
 --- !u!114 &973926021618711445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,11 +199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6863c740b92857648afddf658b3af7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretSO: {fileID: 11400000, guid: 273fe2f03e7e3af40ba9aca691bb55c0, type: 2}
+  turretConfig: {fileID: 11400000, guid: ecabeb9afb3059848b8ed5fa742d1db0, type: 2}
   turretPivot: {fileID: 8203508443365127328}
   target: {fileID: 0}
-  isTargeting: 0
-  range: 10
 --- !u!1 &6013657060802144223
 GameObject:
   m_ObjectHideFlags: 0

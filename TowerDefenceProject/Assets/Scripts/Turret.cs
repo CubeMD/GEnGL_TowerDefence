@@ -5,19 +5,16 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
-    public ScriptableObject turretSO;
+    public TurretSO turretConfig;
 
     public Transform turretPivot;
-    public Transform target;
-
-    public bool isTargeting = false;
-    public float range;
+    private Transform target;
 
     void Update()
     {
         if(target == null)
         {
-            Collider[] enemies = Physics.OverlapSphere(transform.position, range).Where(x => x.GetComponent<Enemy>() != null).ToArray();
+            Collider[] enemies = Physics.OverlapSphere(transform.position, turretConfig.range).Where(x => x.GetComponent<Enemy>() != null).ToArray();
             
             if (enemies.Length > 0)
             {
@@ -27,11 +24,11 @@ public class Turret : MonoBehaviour
         else
         {
             Vector3 pointDirection = target.position - transform.position; 
-            Quaternion LookRotation = Quaternion.LookRotation(pointDirection); 
-            Vector3 turretRotation = LookRotation.eulerAngles;
+            Quaternion lookRotation = Quaternion.LookRotation(pointDirection); 
+            Vector3 turretRotation = lookRotation.eulerAngles;
             turretPivot.rotation = Quaternion.Euler(0, turretRotation.y, 0);
             
-            if(Vector3.Distance(transform.position, target.transform.position) > range)
+            if(Vector3.Distance(transform.position, target.transform.position) > turretConfig.range)
             {
                 target = null;
             }
@@ -40,6 +37,9 @@ public class Turret : MonoBehaviour
 
     public void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(transform.position, range);
+        if (turretConfig)
+        {
+            Gizmos.DrawWireSphere(transform.position, turretConfig.range);
+        }
     }
 }

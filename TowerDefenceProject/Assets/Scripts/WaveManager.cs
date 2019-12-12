@@ -7,7 +7,7 @@ using Random = UnityEngine.Random;
 
 public class WaveManager : MonoBehaviour
 {
-    public List<WaveSO> waveData;
+    public List<WaveSO> waveConfig;
     public float spawnInterval;
     public float breakInterval;
     private Point[] startingPoints;
@@ -18,13 +18,13 @@ public class WaveManager : MonoBehaviour
         startingPoints = FindObjectsOfType<Point>().Where(x => x.previousPoints.Count == 0).ToArray();
         waves = new List<Dictionary<GameObject, int>>();
         
-        for (int i = 0; i < waveData.Count; i++)
+        for (int i = 0; i < waveConfig.Count; i++)
         {
             Dictionary<GameObject, int> wave = new Dictionary<GameObject, int>();
             
-            for (int j = 0; j < waveData[i].enemies.Count; j++)
+            for (int j = 0; j < waveConfig[i].enemies.Count; j++)
             {
-                wave.Add(waveData[i].enemies[j], waveData[i].correspondingAmounts[j]);
+                wave.Add(waveConfig[i].enemies[j], waveConfig[i].correspondingAmounts[j]);
             }
             waves.Add(wave);
         }
