@@ -6,8 +6,10 @@ using UnityEngine;
 public class Turret : MonoBehaviour
 {
     public TurretSO turretConfig;
-
     public Transform turretPivot;
+    public Transform firePoint;
+    public GameObject projectilePrefab;
+    public float fireCooldown;
     private Transform target;
 
     void Update()
@@ -20,6 +22,7 @@ public class Turret : MonoBehaviour
             {
                 target = enemies[0].transform;
             }
+            
         }
         else
         {
@@ -32,6 +35,24 @@ public class Turret : MonoBehaviour
             {
                 target = null;
             }
+        }
+        if (fireCooldown <= 0 && target != null)
+        {
+            Fire();
+            fireCooldown = 1 / turretConfig.fireRate;
+        }
+
+
+        fireCooldown -= Time.deltaTime;
+    }
+
+    public void Fire()
+    {
+        GameObject projectileGO = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+        Projectile projectile = projectileGO.GetComponent<Projectile>();
+        if(projectile != null)
+        {
+            projectile.FindTarget(target);
         }
     }
 
