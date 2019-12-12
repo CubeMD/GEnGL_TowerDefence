@@ -13,8 +13,9 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        //transform.LookAt(target.transform);
-        transform.Translate(speed * Time.deltaTime * (target.transform.position - transform.position));
+        transform.position += (target.transform.position - transform.position).normalized * speed * Time.deltaTime;
+        //Debug.Log((target.transform.position - transform.position));
+        transform.LookAt(target.transform);
         
         float distanceToTarget = Vector3.Distance(transform.position, target.transform.position);
         

@@ -9,7 +9,7 @@ public class EnemyManager : MonoBehaviour
 {
     public Point[] startingPoints;
     public float timeInterval;
-    public GameObject[] enemies;
+    public List<GameObject> enemies;
     
     // Start is called before the first frame update
     void Start()
@@ -20,13 +20,14 @@ public class EnemyManager : MonoBehaviour
 
     public IEnumerator SpawnEnemies()
     {
-        while (enemies.Length > 0)
+        while (enemies.Count > 0)
         {
             Point spawnPoint = startingPoints[Random.Range(0, startingPoints.Length)];
             Vector3 spawnPos = spawnPoint.transform.position; 
-            Enemy enemy = Instantiate(enemies[enemies.Length - 1], spawnPos, Quaternion.identity, transform).GetComponent<Enemy>(); 
+            Enemy enemy = Instantiate(enemies[enemies.Count - 1], spawnPos, Quaternion.identity, transform).GetComponent<Enemy>(); 
             enemy.origin = spawnPoint; 
             enemy.target = spawnPoint.nextPoint;
+            //enemies.RemoveAt(enemies.Count - 1);
             yield return new WaitForSeconds(timeInterval);
         }
     }
