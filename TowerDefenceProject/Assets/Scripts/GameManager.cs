@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -53,4 +54,12 @@ public class GameManager : MonoBehaviour
         GameOverMenu.SetActive(true);
         Time.timeScale = 0;
     }
+
+    public void PlayerWin()
+    {
+        GameOverMenu.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "CONGRATS!";
+        GameOverMenu.SetActive(true);
+        Time.timeScale = 0;
+    }
+
 }
