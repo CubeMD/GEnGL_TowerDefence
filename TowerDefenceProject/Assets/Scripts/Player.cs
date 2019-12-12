@@ -54,12 +54,9 @@ public class Player : MonoBehaviour
             if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out RaycastHit hitInfo, 5000f))
             {
                 Tile hitTile = hitInfo.collider.GetComponent<Tile>();
-                
-                Debug.Log(hitTile);
-                
+
                 if (hitTile != null && hitTile.canHoldTurret && cash > selectedTurret.GetComponent<Turret>().turretConfig.cost)
                 {
-                    Debug.Log("asdsa");
                     hitTile.canHoldTurret = false;
                     cash -= selectedTurret.GetComponent<Turret>().turretConfig.cost;
                     cashUI.text = ("$" + cash);

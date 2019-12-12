@@ -51,5 +51,6 @@ public class GameManager : MonoBehaviour
     public void PlayerDead()
     {
         GameOverMenu.SetActive(true);
+        Time.timeScale = 0;
     }
 }
