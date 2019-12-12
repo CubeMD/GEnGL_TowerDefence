@@ -1,39 +1,52 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-
-    [SerializeField] int health = 100;
-    [SerializeField] int gold = 0;
-    [SerializeField] int round = 1;
-    public TextMeshProUGUI roundtxt;
-    public TextMeshProUGUI goldtxt;
-    public Slider healthbar;
+    public Player player;
+    public float damagePerEnemy;
+    public int cashPerEnemy;
 
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
+            GetPlayerWave();
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
         }
     }
-    public void EnemyKill() 
+
+    public void GetPlayerWave()
     {
-        gold += 10;
-        goldtxt.text = ("$" + gold);
+        player = FindObjectOfType<Player>();
     }
 
-    public void TakeDamage()
+    public void EnemyKilled() 
     {
-        healthbar.value -= 5;
+        player.cash += cashPerEnemy;
+        player.cashUI.text = ("$" + player.cash);
     }
-    public void RoundIncrease()
+
+    public void PlayerTakenDamage()
     {
-        roundtxt.text = ("Round: " + round++);
+        player.hp -= damagePerEnemy;
+        player.healthbarUI.value = player.hp;
+        AudioManager.instance.PlaySounds("PlayerTakenDamage");
+    }
+    public void RoundIncrease(int round)
+    {
+        player.roundUI.text = ("Round: " + round);
+    }
+
+    public void PlayerDead()
+    {
+        
     }
 }

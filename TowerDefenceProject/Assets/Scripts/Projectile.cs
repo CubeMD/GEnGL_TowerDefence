@@ -7,18 +7,20 @@ public class Projectile : MonoBehaviour
     
     void Update()
     {
-        if(target == null)
+        if (target == null)
         {
             Destroy(gameObject);
         }
-
-        Vector3 direction = target.transform.position - transform.position;
-        float distanceToTravel = projectileConfig.speed * Time.deltaTime;
-        transform.Translate(direction.normalized * distanceToTravel, Space.World);
-        
-        if(direction.magnitude <= distanceToTravel)
+        else
         {
-            Hit();
+            Vector3 direction = target.transform.position - transform.position;
+            float distanceToTravel = projectileConfig.speed * Time.deltaTime;
+            transform.Translate(direction.normalized * distanceToTravel, Space.World);
+        
+            if(direction.magnitude <= distanceToTravel)
+            {
+                Hit();
+            }
         }
     }
     public void Hit()

@@ -34,18 +34,18 @@ public class WaveManager : MonoBehaviour
 
     private IEnumerator PlayWave()
     {
-        foreach (var wave in waves)
+        for (int i = 0; i < waves.Count; i++)
         {
-            while (wave.Values.Sum() > 0)
+            GameManager.instance.RoundIncrease(i + 1);
+            while (waves[i].Values.Sum() > 0)
             {
                 Point spawnPoint = startingPoints[UnityEngine.Random.Range(0, startingPoints.Length)];
                 Vector3 spawnPos = spawnPoint.transform.position;
-                GameObject spawnEnemy = RandomEnemyFromWave(wave);
+                GameObject spawnEnemy = RandomEnemyFromWave(waves[i]);
                 Enemy enemy = Instantiate(spawnEnemy, spawnPos, Quaternion.identity, transform).GetComponent<Enemy>();
                 enemy.target = spawnPoint.nextPoint;
                 yield return new WaitForSeconds(spawnInterval);
             }
-            GameManager.instance.RoundIncrease();
             yield return new WaitForSeconds(breakInterval);
         }
     }

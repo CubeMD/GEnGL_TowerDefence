@@ -13,6 +13,11 @@ public class AudioManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
+
+        if (instance != this)
+        {
+            Destroy(gameObject);
+        }
     }
     void Start()
     {
@@ -29,7 +34,7 @@ public class AudioManager : MonoBehaviour
             case "TurretShot":
                 audiosrc.PlayOneShot(effects[1]);
                 break;
-            case "DamagerEffect":
+            case "DamageEffect":
                 audiosrc.PlayOneShot(effects[2]);
                 break;
 
