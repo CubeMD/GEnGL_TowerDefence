@@ -46,6 +46,7 @@ public class Turret : MonoBehaviour
 
     private void Fire()
     {
+        AudioManager.instance.PlaySounds("TurretShot");
         Projectile projectile = Instantiate(turretConfig.projectile, firePoint.position, firePoint.rotation).GetComponent<Projectile>();
         projectile.target = target.GetComponent<Enemy>();
     }
