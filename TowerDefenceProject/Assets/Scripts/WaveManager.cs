@@ -48,6 +48,7 @@ public class WaveManager : MonoBehaviour
             }
             yield return new WaitForSeconds(breakInterval);
         }
+        GameManager.instance.PlayerWin();
     }
 
     private static GameObject RandomEnemyFromWave(Dictionary<GameObject, int> wave)
