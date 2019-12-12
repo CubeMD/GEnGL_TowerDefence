@@ -17,6 +17,10 @@ public class SceneManagerScript : MonoBehaviour
     {
         SceneManager.LoadScene("Level03");
     }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     public void Quit()
     {
         Debug.Log("Appliation Quit");
