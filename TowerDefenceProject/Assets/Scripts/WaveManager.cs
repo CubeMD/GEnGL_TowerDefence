@@ -28,7 +28,6 @@ public class WaveManager : MonoBehaviour
             }
             waves.Add(wave);
         }
-
         StartCoroutine(PlayWave());
     }
 
@@ -48,6 +47,7 @@ public class WaveManager : MonoBehaviour
             }
             yield return new WaitForSeconds(breakInterval);
         }
+        Debug.Log("endReached");
         GameManager.instance.PlayerWin();
     }
 

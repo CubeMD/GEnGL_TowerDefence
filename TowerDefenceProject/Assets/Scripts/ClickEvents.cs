@@ -9,4 +9,9 @@ public class ClickEvents : MonoBehaviour
         AudioManager.instance.PlaySounds("MenuSound");
         Time.timeScale = 0;
     }
+
+    public void TimeScaleNormal()
+    {
+        Time.timeScale = 1;
+    }
 }
